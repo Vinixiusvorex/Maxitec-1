@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de contacto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="Estilos2.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="Logo"> <img src="imagenes/maxitec-logo.png" alt=""></div>
+    <div class="info">
+       <div class="more-info"><img src="imagenes/company.png" alt="" class="img-more">Medellín-Colombia</div>
+       <div class="more-info"><img src="imagenes/call.png" alt="" class="img-more">+57 3177021410</div>
+       <div class="more-info"><img src="imagenes/phone.png" alt="" class="img-more">Juan Guillermo Salazar</div> 
+      </div>
+  </header>
+  
+
+<section class="form_wrap">
+
+        <section class="cantact_info">
+            <section class="info_title">
+                <span class="fa fa-user-circle"></span>
+                <h2>INFORMACION<br>DE CONTACTO</h2>
+            </section>
+            <section class="info_items">
+                <p><span class="fa fa-envelope"></span> Servicioswmt@gmail.com</p>
+                <p><span class="fa fa-mobile"></span> +57 317-702-1410</p>
+            </section>
+        </section>
+
+        <form action="correos.php" method="POST" class="form_contact">
+          <h2>Envíanos un mensaje</h2>
+            <div class="user_info">
+                <label for="names">Nombres *</label>
+                <input type="text" name="nombre" id="" action="" required><span class="barra"></span>
+
+                <label for="phone">Telefono / Celular</label>
+                <input type="text" name="numero" id="" required><span class="barra"></span>
+
+                <label for="email">Correo electronico *</label>
+                <input type="text" name="email" id="" required><span class="barra"></span>
+
+                <label for="mensaje">Mensaje *</label>
+                <textarea name="mensaje" id="" rows="3" required></textarea><span class="barra"></span>
+
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+
+    </section>
+
+
+  <footer>
+    <div class="container-footer-all">
+        <div class="container-body">
+            <div class="colum1">
+                <h4>Más información de la compañia</h4>
+
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipg elit. Est fugiat
+                    obcaecati, totam possimus sequi qui quasi tenetur modi neque. Eum
+                    dolores at quos laboriosam. Ad, neque! Ut aperiam quas qui?
+                </p>
+            </div>
+
+            <div class="colum3">
+                <h6>Información contactos</h6>
+
+                <div class="row2">
+                    <img src="imagenes/Company-yellow.png" />
+                    <label>Whirlpool Maxitec, Colombia Medellín(Antioquia)</label>
+                </div>
+                <div class="row2">
+                    <img src="imagenes/phone_yellow.png" />
+                    <label>3177021410</label>
+                </div>
+                <div class="row2">
+                    <img src="imagenes/mail_yellow.png" />
+                    <label>Servicioswmt@gmail.com</label>
+                </div>
+            </div>
+
+            <div class="colum2">
+                <h4>Redes sociales</h4>
+
+                <div class="row">
+                    <a href="https://www.facebook.com/lavadoras.neveras.37">
+                    <img src="imagenes/facebook.png" /></a>
+                    <label>Siguenos en Facebook</label>
+                
+                </div>
+
+                <div class="row">
+                    <img src="imagenes/logo.png" />
+                    <label>Siguenos en Instragram</label>
+                </div>
+
+
+                <div class="row">
+                    <img src="imagenes/Twitter.png" />
+                    <label>Siguenos en Twitter</label>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="container-footer">
+            <div class="copyright">
+                2020 Todos los derechos reservados | Brayan Salazar
+            </div>
+            <div class="information">
+                Politicas y privacidad | Aviso legal | Terminos y condiciones
+            </div>
+        </div>
+
+
+        </div>
+    </div>
+</footer>
+</body>
+</html>
